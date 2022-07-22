@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landscapes Slider</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Landscapes Slider</h1>
+                <p>"Take a look and just enjoy"</p>
+            </header>
+            <main class="slider-container">
+                <img
+                    id="img"
+                    src="https://www.760degres.fr/wp-content/uploads/2019/08/photos-760degres-cinq-lacs-forclaz-les-arcs-19.jpg"
+                    alt="photo de paysage"
+                    title="Photo de paysage"
+                />
+                <nav class="sliderNav" aria-label="boutons de navigation">
+                    <button class="grid-item-2" onclick="prev()">
+                        <img
+                            src="img\arrow-left.png"
+                            class="icon"
+                            alt="Image précédente"
+                        />
+                    </button>
+                    <button class="grid-item-3" onclick="next()">
+                        <img
+                            src="img\arrow-right.png"
+                            class="icon"
+                            alt="Image suivante"
+                        />
+                    </button>
+                </nav>
+            </main>
+            <footer>
+                <nav class="myFooter-nav" aria-label="#">
+                    <ul class="myFooter-nav-items">
+                        <li>
+                            <a href="https://github.com/E-IckArt"
+                                >Emi IckArt Github</a
+                            >
+                        </li>
+                        <li><a href="#">Novembre 2021</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <a href="credit.html">Crédits</a>
+                        </li>
+                        <li><a href="#">Mentions légales</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
