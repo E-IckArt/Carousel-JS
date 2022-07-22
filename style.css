@@ -154,6 +154,11 @@ button:hover {
     list-style: none;
 }
 
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
 /*
 @media screen and (min-width: 50px) and (max-width: 480px) {
     body {
