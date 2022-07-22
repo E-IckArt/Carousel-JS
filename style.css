@@ -119,22 +119,30 @@ button:hover {
     column-gap: 50px;
 }
 
-.myFooter-nav-items li {
+.myFooter-nav-items li,
+.credit--list__link {
     text-align: center;
     color: whitesmoke;
 }
 
-.myFooter-nav-items a {
+.myFooter-nav-items a,
+.credit--list__link {
     text-decoration: none;
     color: #12c2e9;
 }
 
-.myFooter-nav-items a:hover {
+.myFooter-nav-items a:hover,
+.credit--list__link:hover {
     color: #c471ed;
 }
 
-.myFooter-nav-items a:visited {
+.myFooter-nav-items a:visited,
+.credit--list__link {
     color: #f64f59;
+}
+
+.credit--list {
+    list-style: none;
 }
 
 /*
