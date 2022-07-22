@@ -58,7 +58,8 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.slider-container {
+.slider-container,
+.credit-container {
     display: flex;
     flex-flow: column wrap;
     gap: 10px 10px;
@@ -126,14 +127,17 @@ button:hover {
 }
 
 .myFooter-nav-items a,
+.credit--header__link,
 .credit--list__link {
     text-decoration: none;
     color: #12c2e9;
 }
 
 .myFooter-nav-items a:hover,
+.credit--header__link:hover,
 .credit--list__link:hover {
     color: #c471ed;
+    cursor: pointer;
 }
 
 .myFooter-nav-items a:visited,
@@ -141,21 +145,26 @@ button:hover {
     color: #f64f59;
 }
 
+.credit--header__link img {
+    margin-top: 2rem;
+}
+
 .credit--list {
+    margin: auto;
     list-style: none;
 }
 
 /*
 @media screen and (min-width: 50px) and (max-width: 480px) {
-  body {
-    background-color: lightskyblue;
-  }
-  button:hover {
-    background: whitesmoke;
-  }
-  h1 {
-    font-size: 2rem;
-    color: rgb(62, 36, 143);
-  }
+    body {
+        background-color: lightskyblue;
+    }
+    button:hover {
+        background: whitesmoke;
+    }
+    h1 {
+        font-size: 2rem;
+        color: rgb(62, 36, 143);
+    }
 }
 */
